@@ -14,7 +14,7 @@ import {ShoppingListItemComponent} from "./shopping-list-item.component";
             <div class="list">
                 <ul>
                     <li *ngFor="#listItem of listItems"
-                    (click)="onSelect(listItem)">{{listItem.name}}{{listItem.amount}}</li>
+                    (click)="onSelect(listItem)">{{listItem.name}} {{listItem.amount}}</li>
                 </ul>
             </div>
         </section>
